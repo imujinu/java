@@ -1,4 +1,4 @@
-package src;
+package src.loop;
 
 public class While3 {
 }

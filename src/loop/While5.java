@@ -1,15 +1,16 @@
-package src;
+package src.loop;
 
-public class While {
+public class While5 {
     public static void main(String[] args) {
         int sum = 0;
-
         int i = 1;
-
-        while(i<=100){
+        while(true){
             sum += i;
+            if(sum>10){
+            System.out.println(sum);
+            break;}
             i++;
         }
-        System.out.println(sum);
+
     }
 }
