@@ -7,9 +7,11 @@ public class Arrcopy {
 
         System.arraycopy(arr1, 0, arr2, 0 , arr1.length);
 
-        for(int i = 0; i< arr2.length ; i++){
-            System.out.println(arr2[i]);
+//        for(int i = 0; i< arr2.length ; i++){
+//            System.out.println(arr2[i]);
+//        }
+        for (String str : arr1){
+            System.out.println(str);
         }
-
     }
 }
