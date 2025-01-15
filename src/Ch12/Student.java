@@ -13,7 +13,7 @@ public class Student {
         return no;
     }
 
-    public int getName () {
+    public String getName () {
         return name;
     }
 
@@ -25,7 +25,7 @@ public class Student {
 
     @Override
     public boolean equals(Object object){
-        if ( obj instanceof Student target){
+        if ( object instanceof Student target){
             if(no == target.getNo() && name.equals(target.getName())){
                 return true;
             }
